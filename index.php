@@ -26,7 +26,7 @@
     <script src="index2.js" type="text/javascript"></script> 
 </head>
 <body class="p-3 mb-2 bg-dark">
-
+<div class="contenedor">
   <!-- Aca va la barra de navegacion -->
  
 <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
@@ -57,7 +57,7 @@
 </nav>
 
 <!-- Aca esta el jumbotron que es la base de la pagina  -->
-<div class="container-fluid">
+<div class="container-fluid contenedor-jumbo">
 	<div class="jumbotron ">
   <h1 class="display-4">Demo</h1>
   <h3 class="display-7">Pagina Portafolio</h3>
@@ -141,7 +141,7 @@
 
 <tr><td colspan="4"><hr size="1" color="#6E6E6E"></td></tr>
 
-
+<div class="main">
 <!-- aca comienzan las fotos -->
 <div class="container-fluid">
 	
@@ -246,6 +246,7 @@
 
 
   </div> <!-- Aca termina el container de las fotos  -->
+  </div>
 </div >
 <!-- Aca termina el jumbotron  -->	
 <tr><td colspan="8"><hr size="4" color="#6E6E6E"></td></tr>
@@ -316,7 +317,7 @@
     <div class="container-footer">
            <div class="footer">
                 <div class="copyright">
-                    © <?php echo date('Y'); ?> Todos los Derechos Reservados | <a href="">Treppar</a>
+                    © <?php echo date('Y'); ?> Todos los Derechos Reservados | <a href="">Demo</a>
                 </div>
     
                 <div class="information">
@@ -326,6 +327,6 @@
                 </div>
             </div>    
         </div>    
-
+</div> <--/aca es el final de contenedor /-->
 </body>
 </html>

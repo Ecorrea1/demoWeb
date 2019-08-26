@@ -1,24 +1,42 @@
-.carousel-item img {    
-    height: 500px;
-    width: 60%;
+.contenedor{
+ width: 80%;
+ max-width: 1200px;
+ margin: auto;
 }
-.titulo_buscador{
 
+.carousel-item img {    
+    height: 400px;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+.titulo_buscador{
     text-align: center;
 }
+
 .buscador
 {
     padding: 2%;
     max-width: 100%;
+    box-sizing: border-box;
 }
-
-
-
-
+.main{
+    max-width: 80%;
+    box-sizing: border-box;
+}
 .forma_login
 {
     height: 500px;
     width: 60%;
     padding: 40%
     
+}
+
+@media screen and (max-width: 1000px){
+   
+   
+    .main{
+        width: 100%;
+    }
+
 }
