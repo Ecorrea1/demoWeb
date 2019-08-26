@@ -120,7 +120,7 @@ footer{
 }
 
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 800px){
     
     .container-body{
         flex-wrap: wrap;
