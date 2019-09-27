@@ -159,3 +159,24 @@ footer{
         margin-top: 40px;
     }
 }
+
+
+@media screen and (max-width: 400px){
+    
+    body{
+        background-color: deepskyblue;
+
+    }
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+    }
+}
