@@ -13,6 +13,18 @@
     height: 400px;
 
 }
+
+#img_perfil{
+
+        width: 60%;
+        height: 400px;
+}
+
+#img_perfil_Insider{
+
+    width: 100%;
+    height: 200px;
+}
 /*Edicion de entrada de Blog*/
 .video
 {
