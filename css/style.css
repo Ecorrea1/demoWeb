@@ -37,7 +37,9 @@
 
 
 /*Edicion de entrada de Blod de descripcion*/
-
+#img_descripcion{
+    object-fit          : cover;
+}
 /*Edicion del Footer*/
 
 *{
